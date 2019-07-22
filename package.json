@@ -1,0 +1,22 @@
+{
+  "name": "requesta",
+  "version": "0.0.1",
+  "description": "very lightweight http client for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && jest --watchAll --verbose",
+    "start": "node index"
+  },
+  "author": "emastra",
+  "license": "ISC",
+  "dependencies": {
+    "type-check": "^0.3.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
