@@ -8,7 +8,7 @@
     "start": "node index"
   },
   "author": "emastra",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "type-check": "^0.3.2"
   },
@@ -18,5 +18,21 @@
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emastra/requesta.git"
+  },
+  "keywords": [
+    "lightweight",
+    "http",
+    "client"
+  ],
+  "bugs": {
+    "url": "https://github.com/emastra/requesta/issues"
+  },
+  "homepage": "https://github.com/emastra/requesta#readme"
 }
